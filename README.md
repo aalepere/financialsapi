@@ -1,5 +1,4 @@
-# financialsapi
-
+# UK Financials API
 ## Purpose of the project
 The purpose of this project is to be able to offer financials information via an API.
 
