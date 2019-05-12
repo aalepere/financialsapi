@@ -12,4 +12,4 @@ class TestPDFConversion(unittest.TestCase):
 
         t = pdfTojpgToText(filename="application-pdf.pdf", lang="eng")
         t.processpdf()
-        self.assertEqual(t.dict["line1"], "DUEDIL LIMITED ")
+        self.assertEqual(t.dict["line1"], "DUEDIL LIMITED")
