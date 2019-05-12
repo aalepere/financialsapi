@@ -1,8 +1,9 @@
+import os
+import tempfile
+
+import pytesseract
 from pdf2image import convert_from_path
 from PIL import Image
-import tempfile
-import pytesseract
-import os
 
 
 class pdfTojpgToText:
@@ -72,7 +73,7 @@ class pdfTojpgToText:
                 j = 1
                 for line in raw.splitlines():
                     line_ref = "line" + str(j)
-                    self.dict.update({"page": i, "PandL": [{line_ref: line}]})
+                    self.dict.update({line_ref: line})
                     j = j + 1
             # Increments the counter
             i = i + 1
