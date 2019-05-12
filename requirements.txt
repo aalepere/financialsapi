@@ -1,0 +1,13 @@
+appdirs==1.4.3
+attrs==19.1.0
+black==19.3b0
+Click==7.0
+isort==4.3.18
+linecache2==1.0.0
+pdf2image==1.5.4
+Pillow==6.0.0
+pytesseract==0.2.6
+six==1.12.0
+toml==0.10.0
+traceback2==1.4.0
+Wand==0.5.3
